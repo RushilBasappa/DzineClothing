@@ -1,0 +1,44 @@
+
+.center{
+  text-align: center;
+}
+body .navbar-inverse{
+  border-radius: 0;
+  margin: 0;
+}
+body .row1{
+  height: 428px;
+  background-image: url(http://printingbydemand.com/wp-content/uploads/2015/11/option2.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: scroll;
+  background-size: cover;
+}
+.row1>div{
+  padding-top:15%;
+}
+body .row1 h2{
+  margin: 0;
+  color: white;
+  font-size: 46px;
+  font-family: open-sans;
+}
+body .row1 button{
+  color: white;
+}
+
+.row2{
+  height: 239px;
+}
+.row3{
+  height: 409px;
+  background-color: #F9F9F9;
+}
+
+.row3 img{
+    width: 100%;
+}
+.row3 .col-md-4>div{
+  position: absolute;
+  top: 70%;
+}
