@@ -1,0 +1,49 @@
+<header>
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">Dzine Clothing</a>
+      </div>
+      <ul class="nav navbar-nav">
+        <li><a href="/home.html">Home</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Services</a>
+          <ul class="dropdown-menu">
+            <li><a href="/services/screen_printing.html">Screen Printing</a></li>
+            <li><a href="/services/digital_printing.html">Digital Printing</a></li>
+            <li><a href="/services/vinyl_graphics.html">Vinyl Graphics</a></li>
+            <li><a href="/services/embroidery.html">Embroidery</a></li>
+            <li><a href="#">Apparel fishing</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Apparel</a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Apparel Catalogs</a></li>
+            <li><a href="#">Fabric Blends</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Portfolio</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+    </div>
+  </nav>
+</header>
+
+<script>
+$(function(){
+  $(".dropdown").hover(
+      function() {
+        $('.dropdown-menu', this).stop( true, true ).fadeIn("fast");
+        $(this).toggleClass('open');
+        $('b', this).toggleClass("caret caret-up");
+      },
+      function() {
+        $('.dropdown-menu', this).stop( true, true ).fadeOut("fast");
+        $(this).toggleClass('open');
+        $('b', this).toggleClass("caret caret-up");
+      });
+});
+</script>
+

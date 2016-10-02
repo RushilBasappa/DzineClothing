@@ -1,4 +1,3 @@
-
 .center{
   text-align: center;
 }
@@ -10,7 +9,7 @@ body .row1{
   height: 428px;
   background-image: url(http://printingbydemand.com/wp-content/uploads/2015/11/option2.jpg);
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: center 35%;
   background-attachment: scroll;
   background-size: cover;
 }
@@ -41,4 +40,12 @@ body .row1 button{
 .row3 .col-md-4>div{
   position: absolute;
   top: 70%;
+}
+
+.content-wrapper img{
+  width:24%;
+}
+
+.content-wrapper>div>div>div{
+  display: inline;
 }
