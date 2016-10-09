@@ -45,7 +45,3 @@ body .row1 button{
 .content-wrapper img{
   width:24%;
 }
-
-.content-wrapper>div>div>div{
-  display: inline;
-}
